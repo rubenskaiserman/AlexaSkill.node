@@ -1,9 +1,9 @@
 const Alexa = require('ask-sdk-core');
-const LaunchRequestHandler = require('./handlers/LaunchRequestHandler');
+const launchRequestBuilder = require('./handlers/LaunchRequestHandler');
 
 var GLOBALS = {};
 
-const LaunchRequestHandler = LaunchRequestHandler(GLOBALS);
+const LaunchRequestHandler = launchRequestBuilder(GLOBALS);
 
 const HelloWorldIntentHandler = {
 	canHandle(handlerInput) {

@@ -1,6 +1,6 @@
 const Alexa = require('ask-sdk-core');
 
-module.exports = GLOBALS => {
+function launchRequestBuilder(GLOBALS) {
 	return {
 		canHandle(handlerInput) {
 			return (
@@ -18,3 +18,5 @@ module.exports = GLOBALS => {
 		},
 	};
 };
+
+module.exports = launchRequestBuilder
