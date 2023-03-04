@@ -32,3 +32,10 @@
 ## Local testing
 - ### ask run --watch
     - Makes the lambda call the code in your machine
+
+
+## Instructions
+- ### Handlers code should be build in a builder function inside the 'handlers' folder.
+    - Inside index.js, the builder return should be loaded into a constant that would be indexed into the custom SkillBuilders (Alexa.SkillBuilders.custom)
+    - The code inside the middleware will be run everytime an Intent gets called. So, make sure to not run anything too heavy inside it.
+    - GLOBALS is meant to be a global variable available for all instances of the skill that means every user has access to the same version of Globals.
