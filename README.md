@@ -1,7 +1,7 @@
 # AlexaSkill.nodejs
 
 
-## Instalations
+## Dependencies
 
 - ### NodeJS (18.x)
 - ### aws cli
