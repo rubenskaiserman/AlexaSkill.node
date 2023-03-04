@@ -1,0 +1,30 @@
+{
+    "askcliStatesVersion": "2020-03-31",
+    "profiles": {
+      "default": {
+        "skillId": "SKILL_ID_PLACEHOLDER",
+        "skillInfrastructure": {
+          "@ask-cli/lambda-deployer": {
+            "deployState": {
+              "default": {
+                "iamRole": "IAM_ROLE_PLACEHOLDER",
+                "lambda": {
+                  "arn": "AWS_LAMBDA_FUNCTION_EXEMPLE_ARN_ID",
+                  "lastModified": "LAST_MODIFIED_DATE",
+                  "revisionId": "REVISION_ID_PLACEHOLDER"
+                }
+              }
+            }
+          }
+        },
+        "skillMetadata": {
+          "lastDeployHash": "LAST_DEPLOYMENT_HASH_PLACEHOLDER"
+        },
+        "code": {
+          "default": {
+            "lastDeployHash": "LAST_DEPLOYMENT_HASH_PLACEHOLDER"
+          }
+        }
+      }
+    }
+  }
