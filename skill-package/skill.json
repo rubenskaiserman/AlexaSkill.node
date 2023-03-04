@@ -5,7 +5,7 @@
         "en-US": {
           "summary": "Sample Short Description",
           "examplePhrases": [
-            "Alexa open hello world",
+            "Alexa open placeholder",
             "hello",
             "help"
           ],
@@ -21,7 +21,7 @@
     "apis": {
       "custom": {
         "endpoint": {
-          "uri": "arn:aws:lambda:us-east-1:559434747622:function:ask-placeholder-default-default-1677934308885"
+          "uri": "arn:aws:lambda:location:IAM_CODE:function:aws_lambda_function_title"
         }
       }
     },

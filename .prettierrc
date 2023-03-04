@@ -3,7 +3,7 @@
   "semi": true,
   "singleQuote": true,
   "useTabs": true,
-  "arrowParens": "avoid",
+  "arrowParens": "always",
   "bracketSpacing": true,
   "printWidth": 80
 }

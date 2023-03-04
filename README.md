@@ -1,11 +1,11 @@
 # AlexaSkill.nodejs
 
-
 ## Dependencies
 
 - ### NodeJS (18.x)
 - ### aws cli
 - ### ask cli
+- ### ask-sdk-core
 
 ## Config
 - ### aws configure: [link to docs](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html)
@@ -28,3 +28,7 @@
     - Deploy your code and interaction model to Alexa Developer Console and AWS Lambda (if asigned as the desired backend)
     - Your IAM User need to have the Lambda and IAM needed credentials
     - The command will automatically update the needed information on the .ask/ folder.
+
+## Local testing
+- ### ask run --watch
+    - Makes the lambda call the code in your machine
