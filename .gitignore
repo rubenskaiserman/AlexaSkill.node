@@ -105,3 +105,7 @@ dist
 
 package-lock.json
 .DS_Store
+
+.ask/lambda
+
+skill-package/
